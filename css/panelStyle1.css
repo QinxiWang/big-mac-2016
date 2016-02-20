@@ -1,0 +1,75 @@
+body{
+  padding-top: 50px;
+  height: 100vh;
+  overflow-x: hidden;
+
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+h4 {
+  margin-top: 25px;
+}
+.row {
+  margin-bottom: 20px;
+}
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
+}
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.container #storyTitle{
+    text-align: center;
+}
+
+/*styling for the story image container*/
+.fixedStoryImgContainer{
+    height: 40em;
+}
+
+/*styling for the data visualization container*/
+.fixedDataVisualContainer{
+    height: 40em;
+}
+
+/*styling for the story text container*/
+.fixedStoryTextContainer{
+    height: 14.85em;
+}
+
+/*styling for the pagination nav container*/
+.fixedPaginationNavContainer{
+    -webkit-margin-before: 0em;
+    height: 14.85em;
+}
+
+.fixedPaginationNavContainer .backButton{
+    float: left;
+}
+
+.fixedPaginationNavContainer .forwardButton{
+    float: right;
+}
+
+.story-img {
+    background-image: url("../images/storyboard-pics/Bookcase_closeup.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

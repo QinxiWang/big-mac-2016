@@ -1,5 +1,8 @@
 body{
   padding-top: 50px;
+  height: 100vh;
+  overflow-x: hidden;
+
 }
 .starter-template {
   padding: 40px 15px;
@@ -52,11 +55,20 @@ hr {
 
 /*styling for the pagination nav container*/
 .fixedPaginationNavContainer{
+    -webkit-margin-before: 0em;
     height: 14.85em;
 }
 
+.fixedPaginationNavContainer .backButton{
+    float: left;
+}
+
+.fixedPaginationNavContainer .forwardButton{
+    float: right;
+}
+
 .story-img {
-    background-image: url("../images/storyboard-pics/Bookcase_from_a_distance.png");
+    background-image: url("../images/storyboard-pics/Evan_with_piggypank.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
