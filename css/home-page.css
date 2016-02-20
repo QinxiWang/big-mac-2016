@@ -9,3 +9,34 @@
 .right-margin {
     margin-right: 3%;
 }
+
+.inner{
+    margin-top: 50px;
+}
+
+.row-md-6{
+    height: 40px;
+}
+
+#parent {
+    left: 100px;
+    top: 100px;
+    /*width: 40px;*/
+    /*height: 10px;*/
+}
+
+.message,.message {
+    height: 120px;
+    width: 120px;
+    background-color: cadetblue;
+    color: white;
+    /*z-index: -9999;*/
+    line-height: 115px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+}
