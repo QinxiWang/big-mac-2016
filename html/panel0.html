@@ -20,6 +20,9 @@
     <!-- Custom styles for this template -->
     <link href="../css/panelStyle.css" rel="stylesheet">
 
+    <!-- Plot.ly dependency -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
@@ -66,8 +69,8 @@
           <!-- <p>Something</p> -->
       </div>
 
-      <div class="col-xs-6 col-md-4 fixedDataVisualContainer"> <!--data visualization container -->
-          <img src="../images/testGraph.png"/>
+      <div class="col-xs-4 col-md-4 fixedDataVisualContainer"> <!--data visualization container -->
+          <div id="panelGraph0"></div>
       </div>
     </div>
 
@@ -84,8 +87,8 @@
               </nav>
         </div>
     </div>
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
+    <!-- Panel 0 JS-->
+    <script src="../js/panel0.js"></script>
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script> -->
