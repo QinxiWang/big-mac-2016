@@ -1,4 +1,8 @@
 /* Main style for the app */
+body {
+    font-family: 'Helvetica Neue';
+}
+
 
 .first-row {
     height: 60%;
