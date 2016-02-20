@@ -82,6 +82,20 @@ img {
   height: 55%;
 }
 
+.graphContainer {
+  margin-top: 5%;
+  width: 75%;
+  height: 55%;
+}
+
+.graphContainer {
+  /*background-color: red;*/
+  margin-top: 5%;
+  width: 75%;
+  height: 55%;
+}
+
+
 .seven-dwarves {
   /*background-color: green;*/
   width: 80%;
