@@ -60,15 +60,39 @@ var revertColor = function(){
     Plotly.restyle(finalGraph, revertChange, [0]);
 }
 
-// working code 
-var n = 0;
-$( "div.enterleave" )
-  .mouseenter(function() {
-    n += 1;
-    highlightTraceColor();
-    $( this ).find( "span" ).text( "mouse enter x " + n );
-  })
-  .mouseleave(function() {
-      revertColor();
-    $( this ).find( "span" ).text( "mouse leave" );
-  });
+// working code
+// var n = 0;
+// $( "div.enterleave" ) div.enterleave
+//   .mouseenter(function() {
+//     n += 1;
+//     highlightTraceColor();
+//     $( this ).find( "span" ).text( "mouse enter x " + n );
+//   })
+//   .mouseleave(function() {
+//       revertColor();
+//     $( this ).find( "span" ).text( "mouse leave" );
+//   });
+
+// var n = 0;
+// $( ".d1")
+//   .mouseenter(function() {
+//     n += 1;
+//     highlightTraceColor();
+//     $( this ).find( "span" ).text( "mouse enter x " + n );
+//   })
+//   .mouseleave(function() {
+//       revertColor();
+//     $( this ).find( "span" ).text( "mouse leave" );
+//   });
+
+
+  var toggleGraphColors = function(){ $( ".d1" )
+    .mouseenter(function() {
+      highlightTraceColor();
+    })
+    .mouseleave(function() {
+        revertColor();
+    });
+};
+
+toggleGraphColors();
