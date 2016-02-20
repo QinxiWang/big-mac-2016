@@ -31,15 +31,26 @@ var demandCurve = {
 }
 
 var dash = {
-    x:[0,1,2, 2,2],
-    y:[2,2,2, 1,0],
+    x:[0,1,2, 0],
+    y:[0,1,2, 2],
     line: {
         dash: 'dot',
         width: 2
-    }
+    },
+    fill:'tozeroy',
 }
 
-var econGraph = [supplyCurve, demandCurve, dash];
+var dash2 = {
+    x:[0,1,2,1,0],
+    y:[2,2,2,3,4],
+    line: {
+        dash: 'dot',
+        width: 2
+    },
+    fill:'tozerox',
+}
+
+var econGraph = [supplyCurve, demandCurve, dash, dash2];
 
 
 Plotly.newPlot('panelGraph6', econGraph, layout);
