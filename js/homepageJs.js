@@ -13,21 +13,4 @@ function alertName() {
     return name;
 };
 
-
-
-// bootbox.prompt("What is your name?", function(result) {
-//   if (result === null) {
-//     Example.show("Prompt dismissed");
-//   } else {
-//     name = result;
-//   }
-// });
-
-
-// bootbox.prompt("What is your name?", function(result) {
-//   if (result === null) {
-//     Example.show("Prompt dismissed");
-//   } else {
-//     Example.show("Hi <b>"+result+"</b>");
-//   }
-// });
+// got from http://bootboxjs.com/#getting-started
