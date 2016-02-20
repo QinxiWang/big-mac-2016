@@ -53,13 +53,13 @@ hr {
 
 /*styling for the story text container*/
 .fixedStoryTextContainer{
-    height: 12em;
+    height: 14.5em;
 }
 
 /*styling for the pagination nav container*/
 .fixedPaginationNavContainer{
     -webkit-margin-before: 0em;
-    height: 12em;
+    height: 14.5em;
 }
 
 
