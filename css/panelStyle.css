@@ -40,6 +40,17 @@ hr {
     height: 40em;
 }
 
+/*styling for the data visualization container*/
 .fixedDataVisualContainer{
     height: 40em;
+}
+
+/*styling for the story text container*/
+.fixedStoryTextContainer{
+    height: 14.85em;
+}
+
+/*styling for the pagination nav container*/
+.fixedPaginationNavContainer{
+    height: 14.85em;
 }
