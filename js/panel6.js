@@ -35,7 +35,7 @@ var demandCurve = {
 var dash = {
     x:[0,1,2, 0],
     y:[0,1,2, 2],
-    name: 'Evans Surplus',
+    name: 'Sandras Surplus',
     line: {
         dash: 'dot',
         width: 2
@@ -46,7 +46,8 @@ var dash = {
 var dash2 = {
     x:[0,1,2,1,0],
     y:[2,2,2,3,4],
-    name: 'Sandras Surplus',
+
+    name: 'Evans Surplus',
     line: {
         dash: 'dot',
         width: 2
