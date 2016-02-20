@@ -2,6 +2,13 @@ body {
     color: #fff;
     text-align: center;
     text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .inner{
@@ -64,7 +71,58 @@ img {
 
 .container img{
     height: 80px;
-    border-bottom-left-radius: 45px;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.main-pic {
+  background-color: red;
+  margin-top: 5%;
+  width: 75%;
+  height: 55%;
+}
+
+.seven-dwarves {
+  /*background-color: green;*/
+  width: 80%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.dwarf {
+    /*background-color: blue;*/
+    margin-right: 2%;
+    width: 13%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.last-dwarf {
+    margin-right: 0%;
+    background-image: url("../images/storyboard-pics/2dollars_for_2books.jpg");
+}
+
+.d1 {
+    position: relative;
+    height: 90%;
+    top: 5%;
+    background-image: url("../images/storyboard-pics/Bookcase_from_a_distance.png");
+}
+
+.d2 {
+    background-image: url("../images/storyboard-pics/Bookcase_closeup.png");
+}
+.d3 {
+    background-image: url("../images/storyboard-pics/Evan_with_piggypank.jpg");
+}
+.d4 {
+    background-image: url("../images/storyboard-pics/Mom_and_bookcase.jpg");
+}
+.d5 {
+    background-image: url("../images/storyboard-pics/3dollars_for_1book.jpg");
+}
+.d6 {
+    background-image: url("../images/storyboard-pics/1dollar_for_2books.jpg");
 }
