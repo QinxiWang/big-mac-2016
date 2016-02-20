@@ -102,8 +102,6 @@ var econGraph = [supplyCurve, demandCurve, dash, dash2];
 Plotly.newPlot('finalGraph', econGraph, layout);
 
 
-
-
 // Animation for user interaction with panels corresponding to graph
 (function(){
 
@@ -150,12 +148,6 @@ Plotly.newPlot('finalGraph', econGraph, layout);
         Plotly.restyle(finalGraph, updateD4, [1]);
     }
 
-    //d1
-
-    //d2
-
-    //d3
-
     var revertColorD4 = function(){
         var revertChangeD4 = {
             line: {color: 'orange'}
@@ -176,8 +168,6 @@ Plotly.newPlot('finalGraph', econGraph, layout);
     //d6
 
     //d7
-
-
 
 
     // behavior calls
