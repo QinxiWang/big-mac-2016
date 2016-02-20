@@ -26,3 +26,18 @@ body {
 .fixedDataVisualContainer {
     height: 100%;
 }
+
+.fixedPaginationNavContainer{
+    padding-left: 0%;
+    display: flex;
+}
+
+.button-ul {
+    width: 40%;
+    margin: auto;
+    padding-left: 0;
+    display: flex;
+    align-content: center;
+    position: relative;
+    justify-content: space-between;
+}
