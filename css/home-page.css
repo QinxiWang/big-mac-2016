@@ -9,3 +9,16 @@
 .right-margin {
     margin-right: 3%;
 }
+
+.modal.in .modal-dialog {
+    position: relative;
+    transform: translateY(225%);
+}
+
+/*.btn-default {
+    color: #545454;
+}*/
+
+.modal-title {
+    color: #545454;
+}
