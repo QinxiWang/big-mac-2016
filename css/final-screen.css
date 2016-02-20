@@ -87,16 +87,19 @@ img {
   width: 80%;
   height: 30%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .dwarf {
     /*background-color: blue;*/
-    margin-right: 2%;
+    /*margin-right: 2%;*/
     width: 13%;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
+    height: 50%;
+    top: 25%;
 }
 
 .last-dwarf {
@@ -105,14 +108,16 @@ img {
 }
 
 .d1 {
-    position: relative;
+    /*position: relative;
     height: 90%;
-    top: 5%;
+    top: 5%;*/
     background-image: url("../images/storyboard-pics/Bookcase_from_a_distance.png");
+    background-size: cover;
 }
 
 .d2 {
     background-image: url("../images/storyboard-pics/Bookcase_closeup.png");
+    background-size: cover;
 }
 .d3 {
     background-image: url("../images/storyboard-pics/Evan_with_piggypank.jpg");
