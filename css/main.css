@@ -1,6 +1,7 @@
 /* Main style for the app */
 body {
     font-family: 'Helvetica Neue';
+    overflow-y: hidden;
 }
 
 
