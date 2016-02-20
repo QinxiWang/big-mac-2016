@@ -6,7 +6,7 @@ function alertName() {
       } else {
         var name = result;
         console.log("Name is: " + name);
-        var fileName = "../html/test.html";
+        var fileName = "../html/panel0.html";
         window.location = fileName;
       }
     });
