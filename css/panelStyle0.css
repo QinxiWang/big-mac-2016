@@ -15,6 +15,7 @@ h4 {
 .row {
   margin-bottom: 20px;
 }
+
 .row .row {
   margin-top: 10px;
   margin-bottom: 0;
@@ -40,12 +41,14 @@ hr {
 /*new styling*/
 /*styling for the story image container*/
 .fixedStoryImgContainer{
-    height: 32em;
+    /*height: 32em;*/
+    height: 100%;
 }
 
 /*styling for the data visualization container*/
 .fixedDataVisualContainer{
-    height: 32em;
+    /*height: 32em;*/
+    height: 100%;
 }
 
 /*styling for the story text container*/

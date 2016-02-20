@@ -1,1 +1,23 @@
 /* Main style for the app */
+
+.first-row {
+    height: 60%;
+}
+
+/* Makes graph centered vertically */
+/*.plot-container.plotly {
+    position: relative;
+    transform: translateY(16%);
+}*/
+
+.graph-centered {
+    margin-top: 12%;
+}
+
+.fixedStoryImgContainer {
+    height: 100%;
+}
+
+.fixedDataVisualContainer {
+    height: 100%;
+}
