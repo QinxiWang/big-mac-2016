@@ -17,6 +17,7 @@ var layout2 = {
 var supplyCurve2 = {
     x: [0, 1, 2, 3, 4],
     y: [4, 3, 2, 1, 0],
+    name: 'Evans Demand',
     type: 'scatter'
 }
 
