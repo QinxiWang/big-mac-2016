@@ -42,3 +42,16 @@ body {
     position: relative;
     justify-content: space-between;
 }
+
+.storyBlurb {
+    font-size: 30px;
+    text-shadow: 2px 2px #000000;
+    margin-top: 8%;
+    /*width: 70%;*/
+    color: white;
+}
+
+#storyTitle {
+    color: black;
+    font-size: 60px;
+}

@@ -12,7 +12,7 @@
 
 .modal.in .modal-dialog {
     position: relative;
-    transform: translateY(225%);
+    transform: translateY(150%);
 }
 
 /*.btn-default {
@@ -25,12 +25,12 @@
     /*color: forestgreen;*/
     font-family: "Rubik";
     font-style: normal;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .second{
     color:  rgba(6,165,209,1);
-    font-size: 46px;
+    font-size: 56px;
     font-family: "Monda";
 }
 
