@@ -2,14 +2,15 @@
 var trace1 = {
   x: [null],
   y: [null],
-  name: 'Sandras Demand',
+  name: 'Evans Demand',
+
   type: 'scatter'
 };
 
 var trace2 = {
   x: [null],
   y: [null],
-  name: 'Evans Supply',
+  name: 'Sandras Supply',
   type: 'scatter'
 };
 

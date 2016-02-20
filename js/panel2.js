@@ -22,6 +22,7 @@ var supplyCurve2 = {
 }
 
 var demandCurve2 = {
+    name: 'Sandras Supply',
     x: [null],
     y: [null],
 }
