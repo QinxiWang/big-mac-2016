@@ -19,6 +19,22 @@
     color: #545454;
 }*/
 
+.first{
+    margin-bottom: 1%;
+    color: rgba(25,198,77,1);
+    /*color: forestgreen;*/
+    font-family: "Rubik";
+    font-style: normal;
+    font-size: 40px;
+}
+
+.second{
+    color:  rgba(6,165,209,1);
+    font-size: 46px;
+    font-family: "Monda";
+}
+
+
 .modal-title {
     color: #545454;
 }
