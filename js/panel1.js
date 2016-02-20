@@ -17,12 +17,14 @@ var layout1 = {
 var supplyCurve1 = {
     x: [null],
     y: [null],
+    name: 'Sandras Supply',
     type: 'scatter'
 }
 
 var demandCurve1 = {
     x: [null],
     y: [null],
+    name: 'Evans Demand'
 }
 
 var graph1 = [supplyCurve1, demandCurve1];
