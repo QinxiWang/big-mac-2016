@@ -73,3 +73,14 @@ hr {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+body{
+    background-image: url("../images/a.jpg");
+}
+
+.storyBlurb{
+    text-align: center;
+    font-family: "Andale Mono";
+    font-size: 150%;
+    /*text-decoration: dotted;*/
+}
