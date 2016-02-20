@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-image: url("../images/a.jpg");
 }
 
 .inner{
@@ -86,14 +87,9 @@ img {
   margin-top: 5%;
   width: 75%;
   height: 55%;
+  padding: 5%;
 }
 
-.graphContainer {
-  /*background-color: red;*/
-  margin-top: 5%;
-  width: 75%;
-  height: 55%;
-}
 
 
 .seven-dwarves {
