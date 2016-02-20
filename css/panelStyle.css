@@ -34,3 +34,12 @@ hr {
 .container #storyTitle{
     text-align: center;
 }
+
+/*styling for the story image container*/
+.fixedStoryImgContainer{
+    height: 40em;
+}
+
+.fixedDataVisualContainer{
+    height: 40em;
+}
