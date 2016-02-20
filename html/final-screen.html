@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!--<link rel="icon" href="../../favicon.ico">-->
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
     <title> Recap </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -20,6 +20,31 @@
     <!--modified things here-->
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
+
+    <!-- testing jquery -->
+    <style>
+      div.out {
+        width: 40%;
+        height: 120px;
+        margin: 0 15px;
+        background-color: #d6edfc;
+        float: left;
+      }
+      div.in {
+        width: 60%;
+        height: 60%;
+        background-color: #fc0;
+        margin: 10px auto;
+      }
+      p {
+        line-height: 1em;
+        margin: 0;
+        padding: 0;
+      }
+  </style>
+
 </head>
 
 <body>
@@ -48,6 +73,12 @@
             <div id="finalGraph"></div>
         </div>
 
+        <div class="out enterleave">
+          <span>move your mouse</span>
+          <div class="in">
+          </div>
+        </div>
+
     <div class="seven-dwarves">
         <div class="dwarf d1"></div>
         <div class="dwarf d2"></div>
@@ -59,6 +90,7 @@
     </div>
 
     <!-- Final Panel js src put at end to render after plotly lib in head -->
+
     <script src="../js/finalPanel.js"></script>
 
 </body>
