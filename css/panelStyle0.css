@@ -33,31 +33,53 @@ hr {
   margin-bottom: 40px;
 }
 
-
 .container #storyTitle{
     text-align: center;
 }
 
+/*new styling*/
 /*styling for the story image container*/
 .fixedStoryImgContainer{
-    height: 40em;
+    height: 32em;
 }
 
 /*styling for the data visualization container*/
 .fixedDataVisualContainer{
-    height: 40em;
+    height: 32em;
 }
 
 /*styling for the story text container*/
 .fixedStoryTextContainer{
-    height: 14.85em;
+    height: 12em;
 }
 
 /*styling for the pagination nav container*/
 .fixedPaginationNavContainer{
     -webkit-margin-before: 0em;
-    height: 14.85em;
+    height: 12em;
 }
+
+
+/*styling for the story image container*/
+/*.fixedStoryImgContainer{
+    height: 40em;
+}*/
+
+/*styling for the data visualization container*/
+/*.fixedDataVisualContainer{
+    height: 40em;
+}*/
+
+/*styling for the story text container*/
+/*.fixedStoryTextContainer{
+    height: 14.85em;
+}*/
+
+/*styling for the pagination nav container*/
+/*.fixedPaginationNavContainer{
+    -webkit-margin-before: 0em;
+    height: 14.85em;
+}*/
 
 .fixedPaginationNavContainer .backButton{
     float: left;
