@@ -35,7 +35,7 @@ var dash = {
     x:[0,1,2, 2,2],
     y:[2,2,2, 1,0],
     line: {
-        color: 'yellow',
+        color: 'green',
         dash: 'dot',
         width: 2
     }
@@ -43,56 +43,91 @@ var dash = {
 
 var econGraph = [supplyCurve, demandCurve, dash];
 
-var graphRef = Plotly.newPlot('finalGraph', econGraph, layout);
+Plotly.newPlot('finalGraph', econGraph, layout);
+
+
 
 // Animation for user interaction with panels corresponding to graph
-var highlightTraceColor = function(){
-    var update = {
-        line: {color: 'green'}
-    };
-    Plotly.restyle(finalGraph, update, [0]);
-}
-
-var revertColor = function(){
-    var revertChange = {
-        line: {color: 'blue'}
-    };
-    Plotly.restyle(finalGraph, revertChange, [0]);
-}
-
-// working code
-// var n = 0;
-// $( "div.enterleave" ) div.enterleave
-//   .mouseenter(function() {
-//     n += 1;
-//     highlightTraceColor();
-//     $( this ).find( "span" ).text( "mouse enter x " + n );
-//   })
-//   .mouseleave(function() {
-//       revertColor();
-//     $( this ).find( "span" ).text( "mouse leave" );
-//   });
-
-// var n = 0;
-// $( ".d1")
-//   .mouseenter(function() {
-//     n += 1;
-//     highlightTraceColor();
-//     $( this ).find( "span" ).text( "mouse enter x " + n );
-//   })
-//   .mouseleave(function() {
-//       revertColor();
-//     $( this ).find( "span" ).text( "mouse leave" );
-//   });
 
 
-  var toggleGraphColors = function(){ $( ".d1" )
-    .mouseenter(function() {
-      highlightTraceColor();
-    })
-    .mouseleave(function() {
-        revertColor();
-    });
-};
+(function(){
 
-toggleGraphColors();
+    var highlightTraceColor = function(){
+        var updateD3 = {
+            line: {
+                color: 'purple',
+                width: 4.0
+            }
+        };
+        Plotly.restyle(finalGraph, updateD3, [0]);
+    }
+
+    //d1
+
+    //d2
+
+    //d3
+
+    var revertColorD3 = function(){
+        var revertChangeD3 = {
+            line: {color: 'blue'}
+        };
+        Plotly.restyle(finalGraph, revertChangeD3, [0]);
+    }
+
+    var toggleGraphColorD3 = function(){ $( ".d3" )
+        .mouseenter(function() {
+          highlightTraceColor();
+        })
+        .mouseleave(function() {
+            revertColorD3();
+        });
+    }
+
+    //d4
+    var highlightTraceColorD4 = function(){
+        var updateD4 = {
+            line: {
+                color: 'purple',
+                width: 4.0
+            }
+        };
+        Plotly.restyle(finalGraph, updateD4, [1]);
+    }
+
+    //d1
+
+    //d2
+
+    //d3
+
+    var revertColorD4 = function(){
+        var revertChangeD4 = {
+            line: {color: 'orange'}
+        };
+        Plotly.restyle(finalGraph, revertChangeD4, [1]);
+    }
+
+    var toggleGraphColorD4 = function(){ $( ".d4" )
+        .mouseenter(function() {
+          highlightTraceColorD4();
+        })
+        .mouseleave(function() {
+            revertColorD4();
+        });
+    }
+    //d5
+
+    //d6
+
+    //d7
+
+
+
+
+    // behavior calls
+    toggleGraphColorD3();
+    toggleGraphColorD4();
+
+
+}());
