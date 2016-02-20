@@ -55,7 +55,16 @@ hr {
 
 /*styling for the pagination nav container*/
 .fixedPaginationNavContainer{
+    -webkit-margin-before: 0em;
     height: 14.85em;
+}
+
+.fixedPaginationNavContainer .backButton{
+    float: left;
+}
+
+.fixedPaginationNavContainer .forwardButton{
+    float: right;
 }
 
 .story-img {
