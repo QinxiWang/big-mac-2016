@@ -1,5 +1,5 @@
 var layout = {
-    title: 'A Title',
+    title: 'Consumer and Producer Surplus',
     xaxis:{
         //range: [1, 4],
         title: 'Number of Books on Shelf',

@@ -17,7 +17,7 @@ var trace2 = {
 var data = [trace1, trace2];
 
 var layout = {
-  title: 'Graph 0',
+  title: 'Consumer and Producer Surplus',
   xaxis: {
     title: 'Number of Books on Shelf',
     range: [0, 4],

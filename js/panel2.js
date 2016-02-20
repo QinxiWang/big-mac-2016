@@ -1,6 +1,6 @@
 // Graph Panel 1
 var layout2 = {
-    title: 'Graph 2',
+    title: 'Consumer and Producer Surplus',
     xaxis:{
         range: [0, 4],
         dtick: 1,

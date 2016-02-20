@@ -1,8 +1,8 @@
 var layout = {
-    title: 'A Title',
+    title: 'Consumer and Producer Surplus',
     xaxis:{
         //range: [1, 4],
-        title: 'Number of Books',
+        title: 'Number of Books on Shelf',
         showgrid: true,
         //zeroline: false,
         tick0: 0,
@@ -35,6 +35,7 @@ var demandCurve = {
 var dash2 = {
     x:[0,1,0],
     y:[3,3,4],
+    name: 'Evans Surplus',
     line: {
         dash: 'dot',
         width: 2
@@ -45,14 +46,14 @@ var dash2 = {
 var dash = {
     x:[0,1,1,1, 1,0],
     y:[0,1,2,3, 3,3],
+    name: 'Sandras Surplus',
+
     line: {
         dash: 'dot',
         width: 2
     },
     fill:'tozeroy',
 }
-
-
 
 
 var econGraph = [supplyCurve, demandCurve, dash, dash2];
