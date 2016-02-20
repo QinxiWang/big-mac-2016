@@ -2,7 +2,7 @@ var layout = {
     title: 'A Title',
     xaxis:{
         //range: [1, 4],
-        title: 'Number of Books',
+        title: 'Number of Books on Shelf',
         showgrid: true,
         //zeroline: false,
         tick0: 0,
